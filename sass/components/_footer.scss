@@ -1,0 +1,17 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: var(--secondary-bg-color);
+
+    &__container {
+        display: flex;
+        align-items: baseline;
+    }
+}
+
+.footer__subtitle {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-style: normal;
+}

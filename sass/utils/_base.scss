@@ -1,0 +1,27 @@
+body {
+    font-family: Roboto,
+        sans-serif;
+    letter-spacing: 0.03em;
+
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}

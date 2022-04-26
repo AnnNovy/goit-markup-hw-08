@@ -1,0 +1,11 @@
+.page-header {
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: var(--border-color);
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+}
+
