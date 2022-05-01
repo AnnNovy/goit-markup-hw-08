@@ -1,7 +1,7 @@
 .close-button {
     position: absolute;
-    top: 8px;
-    right: 8px;
+    top: 101px;
+    right: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,6 +12,11 @@
     border-radius: 50%;
 
     background-color: var(--main-bg-color);
+
+    @media screen and (min-width: 768px) {
+        top: 8px;
+        right: 8px;
+    }
 }
 
 .close-button__icon {
